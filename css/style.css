@@ -9,12 +9,14 @@ body {
     padding: 20px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-.block-1 {
+.block {
     border: 1px solid black;
     border-radius: 3px;
     padding: 20px;
     width: 450px;
+    margin-bottom: 20px;
 }
